@@ -16,7 +16,8 @@ return {
         "html", --html
         "cssls", --css
         "quick_lint_js", --javascript
-        "pyright" --python
+        "pyright", --python
+        "rust_analyzer" --rust
       },
     },
   },
@@ -25,7 +26,7 @@ return {
     "jay-babu/mason-null-ls.nvim",
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
-       ensure_installed = { "stylua", "clang-format", "autopep8"},
+       ensure_installed = { "stylua", "clang-format", "autopep8", "rustfmt"},
     },
   },
   {
