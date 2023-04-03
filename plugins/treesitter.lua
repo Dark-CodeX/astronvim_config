@@ -1,6 +1,55 @@
-return {
+return 
+{
   "nvim-treesitter/nvim-treesitter",
-  opts = {
-    -- ensure_installed = { "lua" },
+  opts = 
+  {
+    ensure_installed = 
+    {
+      "lua",
+      "c",
+      "cpp",
+      "html",
+      "llvm",
+      "make",
+      "rust",
+      "java",
+      "json",
+      "typescript",
+      "javascript",
+      "tsx",
+      "go",
+      "css",
+      "d",
+      "cmake",
+      "bash",
+      "c_sharp",
+      "latex",
+      "kotlin",
+      "php",
+      "python",
+      "regex",
+      "r",
+      "ruby",
+      "v",
+      "vala",
+      "toml",
+      "sql",
+      "swift",
+      "scss",
+      "cuda",
+      "yaml",
+      "vim",
+      "pascal",
+      "perl",
+      "ini",
+      "julia",
+      "json5",
+      "jsonc",
+      "meson",
+      "scala",
+      "scheme",
+      "jsdoc",
+      "clojure"
+    },
   },
 }
