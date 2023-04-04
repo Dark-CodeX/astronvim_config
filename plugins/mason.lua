@@ -26,7 +26,7 @@ return {
     "jay-babu/mason-null-ls.nvim",
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
-       ensure_installed = { "stylua", "autopep8", "rustfmt", "prettier" },
+       ensure_installed = { "stylua", "autopep8", "rustfmt", "prettier", "clang-format"},
     },
   },
   {
