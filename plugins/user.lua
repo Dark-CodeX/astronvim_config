@@ -10,14 +10,14 @@ return {
   --   end,
   -- },
   {
-    "folke/todo-comments.nvim",
-    dependencies = { "nvim-lua/plenary.nvim" },
-    opts = {},
-    event = "User AstroFile",
+      "folke/todo-comments.nvim",
+      dependencies = {"nvim-lua/plenary.nvim"},
+      opts = {},
+      event = "User AstroFile"
   },
   {
-    "gelguy/wilder.nvim",
-    opts = {},
-    event = "User AstroFile",
+      "gelguy/wilder.nvim",
+      opts = {},
+      event = "User AstroFile"
   },
 }
