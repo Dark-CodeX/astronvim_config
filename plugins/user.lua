@@ -20,4 +20,8 @@ return {
       opts = {},
       event = "User AstroFile"
   },
+  {
+    "EdenEast/nightfox.nvim",
+    opts = {}
+  },
 }

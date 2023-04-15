@@ -53,6 +53,6 @@ wilder.set_option(
     },
     -- 'single', 'double', 'rounded' or 'solid'
     -- can also be a list of 8 characters, see :h wilder#popupmenu_border_theme() for more details
-    border = "rounded",
+    border = "double",
   }))
 )
